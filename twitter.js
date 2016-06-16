@@ -26,6 +26,8 @@ function randomColor() {
 	return Math.floor(Math.random() * 16777216).toString(16);
 }
 
+document.onLoad = function () {
+
 var fullname = ra(names);
 var username = fullname.toLowerCase();
 if (Math.random() < 0.3) username = concatString(username);
@@ -39,3 +41,5 @@ document.getElementById('follower_number').innerHTML = Math.floor(Math.random() 
 document.getElementById('tweet_number').innerHTML = Math.floor(Math.random() * 1000);
 document.getElementById('following_number').innerHTML = Math.floor(Math.random() * 1000);
 document.getElementById('desc_ription').innerHTML = description();
+
+};
