@@ -1,4 +1,3 @@
-
 function ra(array) { 
 	return array[Math.floor(Math.random()*array.length)];
 }
@@ -14,8 +13,8 @@ window.onload = function () {
 	document.getElementById('avatar').style = "background-color:#"+randomColor();
 	document.getElementById('fullname').innerHTML = fn;
 	document.getElementById('username').innerHTML = un;
-	document.getElementById('follower_number').innerHTML = Math.floor(Math.random() * 1000);
-	document.getElementById('tweet_number').innerHTML = Math.floor(Math.random() * 1000);
-	document.getElementById('following_number').innerHTML = Math.floor(Math.random() * 1000);
+	document.getElementById('follower_number').innerHTML = randomTwitterNumber(0,800);
+	document.getElementById('tweet_number').innerHTML = randomTwitterNumber(0,10000);
+	document.getElementById('following_number').innerHTML = randomTwitterNumber(0,2000);
 	document.getElementById('desc_ription').innerHTML = description();
 };
