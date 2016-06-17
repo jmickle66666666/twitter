@@ -5,7 +5,7 @@ var quotes = ['i would have extended that scene at the beginning of one of those
 			  'rand paul literally said he wasn\'t brown enough to get held up at tsa',
 			  'am i the only person who finds it incredibly irritating when news websites make the left and right arrow keys take you to other articles? i don\'t always use the scrollwheel, and it\'s easy to accidentally press the wrong key and lose the page when navigating via arrow up/down',
 			  ];
-var prefs = ['Tech',"Experimental","Self-taught","Anti","Discrete","Magical","Quasi","Post","Quantum","Expert","Pop","Covert","Open Source",'Contemporary','Fanatic','Devoted','Proud','Loving','Devoted'];
+var prefs = ['Tech',"Experimental","Self-taught","Anti","Discrete","Magical","Quasi","Post","Quantum","Expert","Pop","Covert","Open Source",'Contemporary','Fanatic','Devoted','Proud','Loving','Devoted','Devoted'];
 var suffs = ["2.0","Extrodinaire","Master","Idiot","Junkie"];
 
 
