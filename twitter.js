@@ -75,4 +75,9 @@ window.onload = function () {
 	// set the description to a generated description using the 'description()' function defined
 	// in description.js
 	document.getElementById('desc_ription').innerHTML = description();
+
+	// unhide the page once all data is loaded. this improves the user experience
+	setTimeout(function () {
+		document.getElementById('hider').style.visibility = "visible";
+	}, 100);
 };
