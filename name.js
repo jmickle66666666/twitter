@@ -1,7 +1,7 @@
 var names = ['Maple','Darline','Mirian','Elizabeth','Stephani','Karlene','Jessenia','Delphine','Augustina','Romona','Gussie','Maud','Corrin','Ciera','Carlton','Alejandrina','Florencio','Emilia','Loria','Caridad','Graham','Corrina','Erlinda','Jamaal','Vincenzo','Ernest','German','Jacquelyne','Violette','Kieth','Daphne','Chanel','Sachiko','Kanisha','Pearline','Francesco','Dexter','Bobbye','Kaye','Dottie','Carlene','Margurite','Laquanda','Kerri','Ashleigh','Rosalie','Kristin','Loan','Margaret','Nicol'];
 
 function randomNumber() { 
-	return ra(['0','1','2','3','4','5','6','7','8','9']);
+	return randomArrayElement(['0','1','2','3','4','5','6','7','8','9']);
 }
 
 function addNumbers(string) { 
@@ -18,7 +18,7 @@ function concatString(string) {
 }
 
 function getName() {
-	return ra(names);
+	return randomArrayElement(names);
 }
 
 function getUsername(fullname) {
