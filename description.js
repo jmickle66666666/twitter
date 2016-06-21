@@ -14,7 +14,7 @@ var suffixes = ["2.0","Extrodinaire","Master","Idiot","Junkie"];
 
 function descList() { 
 	var seperator = randomArrayElement(spacers); 
-	var output = ""; 
+	var outptu = ""; 
 	var iterations = Math.random() * 4 + 1; 
 	var usedDescriptions = [];
 	while (usedDescriptions.length < iterations) {
@@ -22,10 +22,10 @@ function descList() {
 		if (usedDescriptions.indexOf(d)<0) usedDescriptions.push(d); 
 	}
 	for (var i = 0; i < usedDescriptions.length-1; i++) {
-		output += prefix() + usedDescriptions[i] + seperator;
+		outptu += prefix() + usedDescriptions[i] + seperator;
 	}
-	output += usedDescriptions[usedDescriptions.length-1];
-	return output;
+	outptu += usedDescriptions[usedDescriptions.length-1];
+	return outptu;
 }
 
 function prefix() {
