@@ -4,7 +4,10 @@ var quotes = ['i would have extended that scene at the beginning of one of those
 			  'am I the only one that attributed meaning to the fact that invuln didn\'t change the sky color in vanilla doom engine games? :P',
 			  'rand paul literally said he wasn\'t brown enough to get held up at tsa',
 			  'am i the only person who finds it incredibly irritating when news websites make the left and right arrow keys take you to other articles? i don\'t always use the scrollwheel, and it\'s easy to accidentally press the wrong key and lose the page when navigating via arrow up/down',
-			  ];
+			  'imperative form forces the message to be verb-initial which encourages you to actually descibe what was done imho',
+			  'i dontr think theres been a day in the last month where someone either aksed me what im applying for or told me what theyre applying for',
+			  'every time I go away for any amount of time I miss something amazing',
+			  'I am pretty sure every modern web browser is a black hole where your system memory ends up',];
 var prefs = ['Tech',"Experimental","Self-taught","Anti","Discrete","Magical","Quasi","Post","Quantum","Expert","Pop","Covert","Open Source",'Contemporary','Fanatic','Devoted','Proud','Loving','Devoted','Devoted'];
 var suffs = ["2.0","Extrodinaire","Master","Idiot","Junkie"];
 
