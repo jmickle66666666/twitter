@@ -8,7 +8,7 @@ var quotes = ['i would have extended that scene at the beginning of one of those
 			  'i dontr think theres been a day in the last month where someone either aksed me what im applying for or told me what theyre applying for',
 			  'every time I go away for any amount of time I miss something amazing',
 			  'I am pretty sure every modern web browser is a black hole where your system memory ends up',];
-var prefs = ['Tech',"Experimental","Self-taught","Anti","Discrete","Magical","Quasi","Post","Quantum","Expert","Pop","Covert","Open Source",'Contemporary','Fanatic','Devoted','Proud','Loving','Devoted','Devoted'];
+var prefs = ['Tech',"Experimental",'Self-taught',"Anti",'Discrete',"Magical",'Quasi',"Post",'Quantum',"Expert",'Pop',"Covert",'Open Source',"Contemporary",'Fanatic',"Devoted",'Proud',"Loving",'Devoted',"Devoted"];
 var suffs = ["2.0","Extrodinaire","Master","Idiot","Junkie"];
 
 
