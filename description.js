@@ -9,7 +9,7 @@ var quotes = ['i would have extended that scene at the beginning of one of those
 			  'every time I go away for any amount of time I miss something amazing',
 			  'I am pretty sure every modern web browser is a black hole where your system memory ends up',];
 var prefixes = ['Tech',"Experimental",'Self-taught',"Anti",'Discrete',"Magical",'Quasi',"Post",'Quantum',"Expert",'Pop',"Covert",'Open Source',"Contemporary",'Fanatic',"Devoted",'Proud',"Loving",'Devoted',"Devoted"];
-var suffs = ["2.0","Extrodinaire","Master","Idiot","Junkie"];
+var suffixes = ["2.0","Extrodinaire","Master","Idiot","Junkie"];
 
 
 function descList() { 
@@ -34,7 +34,7 @@ function prefix() {
 }
 
 function suffix() {
-	if (Math.random() < 0.2) return " " + randomArrayElement(suffs);
+	if (Math.random() < 0.2) return " " + randomArrayElement(suffixes);
 	else return "";
 }
 
