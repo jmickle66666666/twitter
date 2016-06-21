@@ -1,4 +1,4 @@
-var descripts = ['Sassy','Visionary','Clever','Cars','Computers','Coffee','Cappucinos','Tech','Games','Videogames','Culture','Savant','Guru','Idiot','Telepath','Constipated','Hunter','Force of Nature','Teen','Cyclist','Vegan','Naturist','Mediator','Journalist','Developer','Polymath','Passionate','Creative','Strategist','Leader','Enabler','Deviant','Producer','Futurist','Nerd','Geek','Designer'];
+var descriptions = ['Sassy','Visionary','Clever','Cars','Computers','Coffee','Cappucinos','Tech','Games','Videogames','Culture','Savant','Guru','Idiot','Telepath','Constipated','Hunter','Force of Nature','Teen','Cyclist','Vegan','Naturist','Mediator','Journalist','Developer','Polymath','Passionate','Creative','Strategist','Leader','Enabler','Deviant','Producer','Futurist','Nerd','Geek','Designer'];
 var spacers = ['. ',', ',' . ',' | ',' + ',' & ',' : ',', ',', ','. '];
 var quotes = ['i would have extended that scene at the beginning of one of those game of thrones episodes where the knight is trying to light the longboat with a flaming arrow but keeps missing',
 			  "am I the only one that attributed meaning to the fact that invuln didn't change the sky color in vanilla doom engine games? :P",
@@ -13,18 +13,18 @@ var suffixes = ["2.0","Extrodinaire","Master","Idiot","Junkie"];
 
 
 function descList() { 
-	var sep = randomArrayElement(spacers); 
+	var seperator = randomArrayElement(spacers); 
 	var output = ""; 
-	var iter = Math.random() * 4 + 1; 
-	var descs = [];
-	while (descs.length < iter) {
-		var d = randomArrayElement(descripts);
-		if (descs.indexOf(d)<0) descs.push(d); 
+	var iterations = Math.random() * 4 + 1; 
+	var usedDescriptions = [];
+	while (usedDescriptions.length < iterations) {
+		var d = randomArrayElement(descriptions);
+		if (usedDescriptions.indexOf(d)<0) usedDescriptions.push(d); 
 	}
-	for (var i = 0; i < descs.length-1; i++) {
-		output += prefix() + descs[i] + sep;
+	for (var i = 0; i < usedDescriptions.length-1; i++) {
+		output += prefix() + usedDescriptions[i] + seperator;
 	}
-	output += descs[descs.length-1];
+	output += usedDescriptions[usedDescriptions.length-1];
 	return output;
 }
 
